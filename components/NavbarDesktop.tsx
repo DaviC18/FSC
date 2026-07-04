@@ -4,8 +4,10 @@
 "use client";
 
 import { navLinks } from "@/constants";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import FSC from "../public/images/logo.png"
 
 export default function NavbarDesktop() {
   const pathname = usePathname();
@@ -13,10 +15,11 @@ export default function NavbarDesktop() {
   return (
     <nav className="mx-auto hidden h-20 max-w-7xl items-center justify-between px-6 lg:flex">
       <Link href="/" className="group flex items-center gap-3">
-        <div className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/5 shadow-[0_0_30px_rgba(255,255,255,0.08)]">
-          <span className="text-sm font-black tracking-tight text-white">
+        <div className="flex h-12 w-12 items-center justify-center rounded-full border border-white/15 bg-white/5 shadow-[0_0_30px_rgba(255,255,255,0.08)]">
+          <Image src={FSC} width={50} height={50} alt={""}/>
+          {/* <span className="text-sm font-black tracking-tight text-white">
             LC
-          </span>
+          </span> */}
         </div>
 
         <div className="leading-none">
