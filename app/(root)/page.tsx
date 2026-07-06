@@ -303,7 +303,7 @@ export default function HomePage() {
 
           <Link
             href="/mente-em-pausa"
-            className="mt-10 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-white to-zinc-400 px-8 py-4 text-sm font-black uppercase tracking-wide text-black transition hover:scale-[1.03] hover:from-white hover:to-white"
+            className="mt-10 inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-white to-zinc-400 px-8 py-4 text-sm font-black uppercase tracking-wide text-black transition hover:scale-[1.03] hover:from-white hover:to-white"
           >
             Conhecer o Mente em Pausa
             <ArrowRight size={18} />
