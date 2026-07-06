@@ -158,8 +158,8 @@ const faqs = [
 ];
 
 const CHECKOUT_LINKS = {
-  essential: "https://pay.kiwify.com.br/seu-link-essencial",
-  complete: "https://pay.kiwify.com.br/seu-link-completo",
+  essential: "https://pay.kiwify.com.br/udfZKVa",
+  complete: "https://pay.kiwify.com.br/RaMiv1e",
 };
 
 const pillarsAbout = [
